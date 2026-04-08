@@ -30,6 +30,17 @@ nav ul {
     font-weight: bold;
 }
 
+#app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* 100% dell'altezza del browser */
+  margin: 0;
+}
+
+.main-content {
+  flex: 1;
+}
+
 .review-title{
 font-size: 20px;
 color: var(--tertiary);

@@ -1,7 +1,7 @@
 <script setup>
 import { RouterView } from 'vue-router'
-// 1. Importi il mattoncino che hai appena creato
 import Header from './components/Header.vue' 
+import Footer from './components/Footer.vue'
 </script>
 
 <template>
@@ -10,6 +10,10 @@ import Header from './components/Header.vue'
   
   <hr>
 
-  
-  <RouterView /> 
+  <div class="main-content">
+    <RouterView />
+  </div>
+
+  <Footer />
+
 </template>

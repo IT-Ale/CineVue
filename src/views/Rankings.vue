@@ -3,7 +3,6 @@ import { RouterLink } from 'vue-router'
 </script>
 
 <template>
-  <hr>
 <h4>Classifica Attori più apprezzati</h4>
 <table>
 <thead>
