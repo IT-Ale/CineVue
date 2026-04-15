@@ -7,7 +7,7 @@ import { RouterLink } from 'vue-router'
  <form>
     
     <div>
-      <label for="titolo">Titolo:</label>
+      <label for="titolo">Titolo: </label>
       <input type="text" id="titolo" name="titolo">
     </div>
 
@@ -15,14 +15,14 @@ import { RouterLink } from 'vue-router'
 
     
     <div>
-      <label for="descrizione">Descrizione:</label>
-      <textarea id="descrizione" name="descrizione" rows="3"></textarea>
+      <label for="descrizione">Descrizione: </label>
+      <textarea id="descrizione" name="descrizione" rows="1"></textarea>
     </div>
 
     <br>
 
     <div>
-      <span>Tipo:</span>
+      <span>Tipo: </span>
       <input type="radio" id="film" name="tipologia" value="film">
       <label for="film">Film</label>
       
